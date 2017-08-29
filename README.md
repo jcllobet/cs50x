@@ -1,0 +1,2 @@
+# cs50x
+All the exercises from cs50x
