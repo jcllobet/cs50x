@@ -1,0 +1,21 @@
+*class*
+
+doing buggy0
+we cannot do printf since we didn't incluse stdio.h
+
+help50 helps you. It looks at the program line by line and ask some specific questions
+like a virtual ts/ta
+
+buggy1 --> always focus on the first of those messages. 
+
+Try to learn as much as you can from the error messages.
+eprintf() --> print errors on the screen 
+
+
+program debug50: built in graphical debugger step by step. 
+debug50 ./buggy3
+we have to tell it where to look at in the code. (red dot)
+step over, step into
+
+man --> give me the computer's manual. 
+
