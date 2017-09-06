@@ -1,4 +1,4 @@
-# class notes
+/*
 
 doing buggy0
 we cannot do printf since we didn't incluse stdio.h
@@ -19,3 +19,18 @@ step over, step into
 
 man --> give me the computer's manual. 
 
+int main(void). Main itself does not take any arguemnts.
+The input has to be obtained by another function
+
+We can specify for this to be done in the command line ./string1 marta
+
+int main (int argc, string argv[])
+argv[] array of strings!! YAY
+
+an array is a list of similar values back to back (list)
+A string is just an array of chars
+
+Arcv is an array of strings. 
+./ argv0 Zamyla --> [./argv0\0, Zamayla\0]
+
+*/
