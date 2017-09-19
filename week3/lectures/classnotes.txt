@@ -1,0 +1,81 @@
+class note week 3 
+------------------Algorithms------------------------------------------------------------
+
+The computer needs to be given a hint after the end of each string \0 (8 zero bits)
+
+array: continuous block of memory
+
+_________________________________
+linear approach:
+for each element in array
+    if element you'r looking for
+        return true
+return false
+_________________________________
+
+_________________________________
+binary search:
+look at the middle of array
+if element you're looking for 
+    return true
+else if element is to left
+    search left half of array
+else if element is to right
+    search right half of array
+else
+    return false
+_________________________________
+    
+How to you search the left or right half of array?
+They imply to search in the same way (but for a smaller space)
+The code has to call itself (doing it again for a smaller set)
+
+___________________________________________
+Selection sort -->
+for i from 0 to n-1
+    find smallest element between i'th and n-1'th
+    swap smallest with i'th element
+___________________________________________    
+___________________________________________
+Bubble sort --> compare to the sides (left and right).
+repeat until no swaps
+    for i from 0 to n-2
+        if i'th and i+1'th elements out of order (left and right hand out of order)
+            swap them
+___________________________________________
+___________________________________________
+Insertion sort --> Taking each problem one at a time
+for i from 1 to n-1
+    call 0'th through 1-1'th elements the "sorted side"
+    remove the i'th element
+    insert it into sorted side in order
+___________________________________________
+
+Bubble sort: pairs (adjecent neighbours).
+(n-1) + (n-2) + ... + 1 =n*(n-1)/2 = n^2/2 - n/2 ~ Order(n^2)
+
+Selection sort:n*n
+
+Insertion sort: (if the list is backwards, every element is out of place)
+n*n comparisons
+
+Algorithm that only takes n steps: Linear search
+
+Algorithm that is logarithmic: Binary search
+
+___________________________________________
+Merge Sort --> Very good. Sort on 2 rows, then merge
+On input of n elements
+    if n<2
+        return
+    else
+        sort left half of elements
+        sort right half on elements
+        merge sorted halves
+
+
+
+
+
+
+
