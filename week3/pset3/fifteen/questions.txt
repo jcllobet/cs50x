@@ -1,0 +1,4 @@
+0. Any from 3x3 to 9x9.
+1. Array
+2. greed()
+3. init(), draw(), move() and won()
