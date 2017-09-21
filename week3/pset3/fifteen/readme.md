@@ -1,6 +1,6 @@
 The Game of Fifteen is a puzzle played on a square, two-dimensional board with numbered tiles that slide. The goal of this puzzle is to arrange the board’s tiles from smallest to largest, left to right, top to bottom, with an empty space in board’s bottom-right corner, as in the below.
 
-Game of Fifteen
+#Game of Fifteen#
 
 Sliding any tile that borders the board’s empty space in that space constitutes a "move." Although the configuration above depicts a game already won, notice how the tile numbered 12 or the tile numbered 15 could be slid into the empty space. Tiles may not be moved diagonally, though, or forcibly removed from the board.
 
@@ -8,9 +8,9 @@ Although other configurations are possible, we shall assume that this game begin
 
 solvable configuration
 
-Distribution
+#Distribution#
 
-Downloading
+#Downloading#
 $ wget https://github.com/cs50/problems/archive/fifteen.zip
 $ unzip fifteen.zip
 $ rm fifteen.zip
@@ -36,7 +36,7 @@ What function is called to greet the player at game’s start?
 
 What functions do you apparently need to implement?
 
-Specification
+#Specification#
 
 Implement the Game of Fifteen, per the comments in fifteen.c.
 
