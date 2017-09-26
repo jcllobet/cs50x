@@ -1,32 +1,21 @@
-#include <stdio.h>
 #include <cs50.h>
+#include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
-
-#include "structs.h"
-//constant STUDENTS fixed to 3
-#define STUDENTS 3
 
 int main(void){
-    //type, name array, constant
-    student students[STUDENTS];
+    printf("s:");
+    char *s = get_string();
 
-    for(int i = 0; i < STUDENTS; i++) {
-        printf("name: ");
-        students[i].name = get_string();
+    printf("t:");
+    char *t = get_string();
 
-        printf("dorm: ");
-        students[i].dorm = get_string();
+    if (s != NULL && t != NULL){
+        // function to compare strings on a conceptual way
+        if (strcmp (s, t) == 0){
+            printf("same\n");
 
-    }
-
-    FILE *file = fopen("students.csv", "w");
-    if (file != NULL){
-        for (int i = 0; i < STUDENTS; i++){
-            //printing strings into a file
-            fprintf(file, "%s,%s\n", students[i].name, students[i].dorm);
+        } else {
+            printf("different\n");
         }
-        fclose(file);
     }
-
 }
