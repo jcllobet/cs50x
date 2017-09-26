@@ -1,0 +1,51 @@
+classnotes lecture 4
+
+There is no such thing as strings in C.
+
+the computers forgets about swap's values (copies) when it goes back to main.
+
+Technically, a string is just the address of a set of characters memory.
+
+The name Zamayla beings at "123" and ends at \0.
+When promting for a string again, the PC get's it from another chunk of memory.
+new t= Zamayla but it begins at "234" and ends at \0 (bytes, etc)
+123 != 234 etc...
+
+if we say t = s instead of getting it twice it works. t = s. They are on the same chunk of memory.
+Changing one will change the other.
+
+s and t are pointers!! They tell us where in the memory map our memory is located.
+
+a string is just a synonym for char *.
+It is not a char literally but a char address. A pointer to a char.
+You can define a string by the adress of its first character.
+
+strcmp --> function to compare strings on a conceptual way
+
+correct swap
+
+void swap(int *a, int *b)
+{
+    int tmp = a*;
+    *a = *b;
+    *b = tmp;
+}
+
+swap (&x, &y);
+//& give me a map with the adress of x and y so swap can go there.
+work w/ the adresses, not the #'rs.
+
+set up a pointer
+setting up a pointee is a separate step
+there needs to be a pointee to point to something.
+
+0x --> here comes a hexadecimal
+
+0xff 0xd8 0xff --> standard jpeg file start
+
+struct --> allows you to create an actual structure inside of what you represent information (class)
+
+typedef struct{
+    string name;
+    string dorm;
+}
