@@ -1,0 +1,16 @@
+1.  The header <stdint.h> is a structure that declares sets of integer types having specified widths.
+2.  uintN_t designates an unsigned integer type with width N (width = # of bits)
+3.
+    BYTE - 8 bits
+    DWORD - 32 bits
+    LONG - 32 bits (signed integer)
+    WORD - 16 bits.
+4.  BM, which is 0x42 0x4D in hexadecimal.
+5.  bfSize is an attribute of BITMAPFILEHEADER while biSize is from BITMAPINFOHEADER.
+6.  If biHeight is negative, the bitmap is a top-down DIB and its origin is the upper-left corner.
+7.  The biBitCount member of the BITMAPINFOHEADER structure determines the number of bits that define each pixel and the maximum number of colors in the bitmap.
+8.  Out of free memory.
+9.  We want to read from 1 element of the specfied size to the next one (to divide the pixels).
+10. 3
+11. fseek, allows you to change the location of the file pointer. Offset refers to how many bytes you want to change the current position of the file pointer fp.
+12. Current position of the file pointer.
