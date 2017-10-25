@@ -1,0 +1,98 @@
+classnotes lecture 5
+
+summary of the previous lecture. The importance of using pointers.
+*a (go to the address in a)..
+
+void swap (int *a, int +b)
+{
+    int temp = *a;
+    *a = *b;
+    *a = tmp;
+}
+
+new data type (structure):
+typedef struct
+{
+    string name;
+    string dorm;
+}
+student;
+
+realloc() gives you a biger chunk of memory and moves the old array into a new "bunch" of space.
+
+What if we could relax the constraint and have the numbers in an array but not in consecutive order?
+pointers allow us to do that.
+
+node:
+typedef struct node
+{
+    int n;
+    struct node *next;
+}
+
+bool search(int n, node *list)
+{
+    node *ptr = list;
+    while (ptr != NULL) //would mean end of list
+    {
+        //is your n equivalent to the one i've been given?
+        if (ptr -> n == n)
+        {
+            return true;
+        }
+        ptr = ptr -> next;
+    }
+    return false;
+}
+
+typedef struct
+{
+    int *numbers;
+    int size;
+}
+stack;
+
+why do we wanna create a stack by a pointer to an int.
+Malloc needs to tell me the beginning and I have to remember about the end.
+Where should I put my first integer?
+
+First In, First Out
+enqueue --> Get in the line
+dequeue --> Get out of the line
+
+No specific capacity.
+typdef struct
+{
+    int front;
+    int *numbers;
+    int size;
+}
+queue;
+
+typedef struct node
+{
+    int n;
+    struct node *left;
+    struct node *right;
+}
+node;
+
+bool search (int n, node *tree9 {
+    if (tree == NULL) {
+        return false
+    } else if (n < tree ->n) {
+        return search(n, tree->left);
+    } else if(n > tree->n) {
+        return search(n, tree->right);
+    } else {
+        return true;
+    }
+}
+
+LINEAR PROBBING.
+If there is a collision, you probe further. Close to constant time decision making.
+
+What about a hash table w/ a linked list. It would be an array that stores pointers
+
+try data structure (in order to figure out the dictionary)
+
