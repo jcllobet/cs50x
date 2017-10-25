@@ -1,0 +1,9 @@
+0.  A lung disease and also, the longest word admitted in the dic
+1.  It returns usage measure for a processes such as CPU and memory use.
+2.  16
+3.  Even as passed by value, the two structures will be copied into calculate.
+4.  First it opens the textfile and the dictionary, then main() starts going character after character of the text.
+    A word is considered complete when we encounter a non-alphanumeric character (like spacebar or \n). Then, we check the word for
+    misspelling, reset word index and continue with the loop. If we encounter a digit or the word is longer than Q0, we don't check it.
+5.  fscan allocates memory before reading it, thus not limiting the word (less efficiency) and you cannot skip alphanumeric words
+6.  They should never change, neither by the program or user, so this additional protection ensures that they remain constant.
