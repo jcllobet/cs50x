@@ -1,0 +1,37 @@
+classnotes lecture 6
+
+#WEB PROGRAMMING#
+
+Hyper Text Markup Language.
+
+<!DOCTYPE html>
+
+TCP/IP --> Warriors of the Net
+How does the internet work?
+
+How does the internet get into the provider and then into your home?
+
+Internet: Interconnection of all the different types of physical network.
+
+nslookup www.google.com
+
+traceroute -q 1 www.google.com
+
+Specific computer protocols:
+
+GET Request:
+
+GET / HTTP/1.1
+Host: Harvard.edu
+...
+
+Response:
+HTTP/1.1 200 OK
+Content-Type: text/html
+
+Program: Telnet (allows to connect o a remote server
+
+google.com/search?q=cats
+
+close element right away html: <img alt= "Grumpy cat" src = .../>
+
