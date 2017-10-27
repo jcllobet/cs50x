@@ -2,6 +2,4 @@ classnotes lecture  - Python
 
 great applications in machine learning.
 
-https://github.com/Aesirry/cs50/tree/master/pset7/finance
 
-https://github.com/endiliey/cs50/blob/master/pset7/finance/templates/history.html
