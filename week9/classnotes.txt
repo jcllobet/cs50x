@@ -1,0 +1,89 @@
+phpLiteAdmin --> SQLite
+
+metadata: name, mail, dorm, form
+values: Joan, jcllobet@gmail.com, 202.... matched w/ the keys.
+
+A spreadsheet is a list w/ each different dictionary
+
+SQL databases: storing, creating and deleting data.
+relational database. Allows to mantain relationships among pieces of data (table)
+
+CREATE
+INSERT
+SELECT
+UPDATE
+DELETE
+
+SQL databases allow me to signal the types:
+integer, real, text, blob, numeric, boolean, datetime
+
+Primary Key:
+only allow 1 unit (ex, ID, HASH)
+
+Autoincrement
+
+Not NULL:
+it shouldn't be empty. Each should have a name or a dorm.
+
+Default value:
+not needed as we don't want to give generic names.
+
+INSERT 1 command:
+INSERT INTO "registrants" ("name", "dorm") VALUES ("Rob", "Matthew");
+
+What if we want to search?
+SELECT * FROM registrants  --> displays a result set of 3 rows
+
+UPDATE registrants SET dorm = "Grays" WHERE name = "Zamayla"
+
+if you forget the WHERE you change the whole database... careful.
+
+DELETE FROM registrants WHERE name = "Rob"
+
+Unique identifiers prevent databases from erasing too much or too little data.
+Even when you enter a web, you are accessing it w/ a unique HASH.
+
+id fields are a primary key. You can autoincrement. Make sure the number is not the same. Cannot be null
+
+If you insert w/out id, database already know it should asssign them a certain value.
+
+DELETE FROM registrants WHERE id=2
+
+Autoincrement makes sure what even if you delete, id numbers are not being resused.
+
+PRIMARY KEY
+
+UNIQUE
+
+INDEX
+
+NOT NULL
+
+FOREIGN KEY
+
+if know it is a field you will search all the time, you can tell your database in advance (index your db).
+
+Ex. email should be unique. Not being able to register once? Do they need to have one.
+
+Not null: Protection against bogus data.
+
+Foreign key: The data in one spreadsheat is somehow related to another table.
+
+normalizing the database: Factoring out the common examples.
+
+tie to tables together:
+SELECT * FROM users JOIN zipcodes ON users.zipcode = zicodes.id
+
+sqlite3 lecture.db
+.help
+.tables --> what tables are inside of this file
+.schema --> tree / esquema
+SELECT * FROM USERS
+
+SQL Injection Attacks
+email: me@123.com
+password: ' OR '1' = '1
+
+https://github.com/Aesirry/cs50/tree/master/pset7/finance
+
+https://github.com/endiliey/cs50/blob/master/pset7/finance/templates/history.html
