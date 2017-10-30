@@ -1,0 +1,23 @@
+classnotes lecture  - Python
+
+while True:
+    print("hello, world")
+
+for i in range(50):
+    print("hello, world)
+
+#if statement with 3 different branches
+
+if x < y:
+    print("x is less than y")
+elif x > y:
+    print("x is more than y")
+else:
+    print("x is equal to y")
+
+#command line python
+sys.argv[0]
+
+set --> Collection of objects. Easy to check if it's on that set
+
+Dic --> Like a hashtable.
