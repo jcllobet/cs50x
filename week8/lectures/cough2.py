@@ -1,11 +1,11 @@
 import cs50
 
 def main():
-    cough(3)
+    for i in range(3):
+        cough()
 
-def cough(n):
-    for i in range(n):
-        print("cough")
+def cough():
+    print("cough")
 
 if __name__ == "__main__":
     main()
