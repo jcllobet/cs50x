@@ -2,18 +2,49 @@ CS50x
 =====
 
 Submission for CS50x online course by Harvard University.
+[Link to edX](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)
 
 Week 0 submission
 =================
-1. A randomized 4 way soccer made with scratch: [https://scratch.mit.edu/projects/170768406/](https://scratch.mit.edu/projects/170768406/)
-
-Week 1 submission
+[![Week 0 Project](https://imgur.com/a/j0JlL)](https://scratch.mit.edu/projects/170768406/#fullscreen) 
+My Project: A randomized 4 way soccer made with scratch: 
+```javascript
+[https://scratch.mit.edu/projects/170768406/](https://scratch.mit.edu/projects/170768406/)
+```
+## Week 1: C
 =================
-1. Hello.c - prints Hello, world.<br>
-2. mario.c - prints the mario stair.<br>
-3. greedy.c - Convert your money to quarters (25¢), dimes (10¢), nickels (5¢), and pennies (1¢). Rule: Use the least number of coins.<br>
-4. credit.c - Check if number is valid credit card number, and list out the type of credit card.<br>
-5. water.c - Counting how many bottles
+hello.c : prints hello, world
+```javascript
+~/workspace/pset1/ (master) $ ./hello
+hello, world
+```
+
+water.c : a program to convert shower's length (in minutes) to equivalent water bottles
+```javascript
+~/workspace/pset1/ (master) $ ./water
+minutes: 10
+bottles: 120
+```
+mario.c : a program that recreates half-pyramid using hashes (#) for blocks.
+```javascript
+~/workspace/pset1/ (master) $ ./mario
+height: 8
+       ##
+      ###
+     ####
+    #####
+   ######
+  #######
+ ########
+#########
+```
+greedy.c : a program that converts your money to quarters (25¢), dimes (10¢), nickels (5¢), and pennies (1¢). Rule: Use the least number of coins.
+```javascript
+~/workspace/pset1/ (master) $ ./greedy
+O hai! How much change is owed?
+0.41
+4 coins
+```
 
 Week 2 submission
 =================
