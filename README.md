@@ -6,12 +6,13 @@ Submission for CS50x online course by Harvard University.
 
 Week 0 submission
 =================
-[![Week 0 Project](https://imgur.com/a/j0JlL)](https://scratch.mit.edu/projects/170768406/#fullscreen) 
+[[https://github.com/jcllobet/cs50x/blob/master/week1/pset1/4waysoccer.png|alt=soccer]] 
+
 My Project: A randomized 4 way soccer made with scratch: 
 ```javascript
 [https://scratch.mit.edu/projects/170768406/](https://scratch.mit.edu/projects/170768406/)
 ```
-## Week 1: C
+Week 1: C
 =================
 hello.c : prints hello, world
 ```javascript
