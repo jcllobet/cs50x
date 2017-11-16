@@ -6,7 +6,7 @@ Submission for CS50x online course by Harvard University.
 
 Week 0 submission
 =================
-[[https://github.com/jcllobet/cs50x/blob/master/week1/pset1/4waysoccer.png|alt=soccer]] 
+![alt text](https://github.com/jcllobet/cs50x/blob/master/week1/pset1/4waysoccer.png)
 
 My Project: A randomized 4 way soccer made with scratch: 
 ```javascript
