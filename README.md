@@ -55,7 +55,7 @@ Harry James Potter
 HJP
 ```
 
-caesar.c : a program to caesar cipher a text [Link to Wikipedia](https://en.wikipedia.org/wiki/Caesar_cipher)
+caesar.c : a program to [caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) a text
 ```javascript
 ~/workspace/pset2/ (master) $ ./caesar 13
 Be sure to drink your Ovaltine!
@@ -63,7 +63,7 @@ Or fher gb qevax lbhe Binygvar!
 ```
  
 
-vigenere.c : a program to vigenere cipher a text [Link to Wikipedia](https://en.wikipedia.org/wiki/Vigenère_cipher)
+vigenere.c : a program to [vigenere cipher](https://en.wikipedia.org/wiki/Vigenère_cipher) a text
 ```javascript
 ~/workspace/pset2/ (master) $ ./vigenere bacon
 Meet me at the park at eleven am
