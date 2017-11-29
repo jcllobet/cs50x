@@ -48,8 +48,27 @@ O hai! How much change is owed?
 
 Week 2 submission
 =================
-1. caesar.c - Caesar cipher.<br>
-2. initials.c - Vigenere cipher.<br>
+initials.c: a program that given a person’s name, prints a person’s initials.
+```javascript
+~/workspace/pset2/ (master) $ ./initials
+Harry James Potter
+HJP
+```
+
+caesar.c : a program to caesar cipher a text [Link to Wikipedia](https://en.wikipedia.org/wiki/Caesar_cipher)
+```javascript
+~/workspace/pset2/ (master) $ ./caesar 13
+Be sure to drink your Ovaltine!
+Or fher gb qevax lbhe Binygvar!
+```
+ 
+
+vigenere.c : a program to vigenere cipher a text [Link to Wikipedia](https://en.wikipedia.org/wiki/Vigenère_cipher)
+```javascript
+~/workspace/pset2/ (master) $ ./vigenere bacon
+Meet me at the park at eleven am
+Negh zf av huf pcfx bt gzrwep oz
+```
 
 Week 3 submission
 =================
