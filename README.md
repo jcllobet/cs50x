@@ -70,18 +70,50 @@ Meet me at the park at eleven am
 Negh zf av huf pcfx bt gzrwep oz
 ```
 
-Week 3: Game of Fifteen
-=================
-1. pset3/find/ - generate.c generates pseudorandom of size of user's choice, then find.c check if a number of user's choice is in those generated pseudorandom number. Usage: ./generate <size> <seed> | ./find <value><br>
-2. pset3/fifteen/ - generates a game of fifteen. Usage: ./fifteen <size of board><br>
-3. hacker3/find/ - similar as pset3, but this find (sort and search) algorithm is faster. Usage: ./generate <size> <seed> | ./find <value><br>
+## Week 3: Game of Fifteen
+fifteen.c : a game of fifteen games
+```javascript
+~/workspace/pset3/ (master) $ ./fifteen 4
 
-Week 4: Forensics
-=================
-Made a game called Breakout with GUI using API from SPL (Stanford Portable Library). Avoid the ball from falling down the bottom edge, when the ball hit the paddle, it will bounce to the top, when it hit the bricks on the top portion of the game, the brick will dissapear, points increased, and ball will bounce back down.<br>
+15 14 13 12
 
-1. pset4 - Standard version of Breakout.<br>
-2. hacker4 - Implemented GOD mode, the paddle will move itself according to x-position of the ball, essentially the computer is playing the game for you. Implemented paddle shrinking mechanism, variable scoring mechanism, variable-velocity mechanism, and laser.<br>
+11 10  9  8
+
+ 7  6  5  4
+
+ 3  1  2  _
+ 
+Tile to move:
+```
+
+## Week 4: Forensics
+whodunit.c : a program that intelligently analyze an image (clue.bmp) and turn it to a better image (verdict.bmp)
+```javascript
+~/workspace/pset4/ (master) $ ./whodunit clue.bmp verdict.bmp
+```
+Before running whodunit.c
+
+![Image of clue](https://s30.postimg.org/gtxuk8y69/download.png)
+
+After running whodunit.c
+
+![Image of verdict](https://s30.postimg.org/p9eotmns1/download_1.png)
+
+resize.c : a program that can enlarge an image to n size
+```javascript
+~/workspace/pset4/ (master) $ ./resize 4 small.bmp large.bmp
+```
+
+Before and after running resize.c
+
+![Image of small](https://s24.postimg.org/u4la5vqyt/small.png)
+![Image of large](https://s30.postimg.org/zevkxb49d/large.png)
+
+recover.c : a program that recovers .jpeg images from card.raw
+```javascript
+~/workspace/pset4/ (master) $ ./recover
+```
+![Image of before and after](https://s29.postimg.org/whkiz0dlj/test.png)
 
 ## Week 5 and 6: Spellchecker
 ```javascript
