@@ -184,7 +184,7 @@ Sentiments
 
 smile.py : a program that categorizes a word as positive or negative
 
-[![smile.png](https://s28.postimg.org/jzsjsjkod/smile.png)](https://postimg.org/image/907cgxu95/)
+[![smile.png](https://imgur.com/a/y7JUH)](https://imgur.com/a/y7JUH)
 
 tweets.py categorizes a user’s recent 100 tweets as positive or negative (uses Twitter API)
 
